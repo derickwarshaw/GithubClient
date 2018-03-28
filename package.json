@@ -1,12 +1,12 @@
 {
-  "name": "form-registration",
+  "name": "github-issues",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test2": "react-scripts test --env=jsdom",
-    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js 'src/__tests__/**.spec.js'"
+    "test": "mocha --compilers js:babel-core/register --require  ignore-styles ./test/setup.js 'src/__tests__/**.spec.js'"
   },
   "keywords": [],
   "author": "",
@@ -55,6 +55,7 @@
     "jest": "^22.4.3",
     "jsdom": "^11.6.2",
     "node-sass": "^4.7.2",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
