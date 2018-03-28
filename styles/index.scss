@@ -1,0 +1,72 @@
+
+.IssuesTable {
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: calc((100%) - (200px));
+	height: calc((100%) - (0px));
+	border:1px solid gray;
+	
+}
+.CommentsTable {
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: calc((100%) - (200px));
+	height: calc((100%) - (0px));
+	border:1px solid gray;
+}
+.CommentsTable li {
+	border-top: 1px solid gray;
+	list-style-type: none;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.IssuesTable li {
+	border-top: 1px solid gray;
+	list-style-type: none;
+	height: 30px;
+	width: 100%;
+}
+.IssuesTable li a {
+	text-decoration: none;
+}
+.IssuesTable li:hover {
+	background: #d0e1f5;
+}
+.pagination {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 30px;
+}
+.pagination a {
+	margin-left:10px;
+	text-decoration: none;
+	color:#0366d6;
+}
+.open.octicon {
+	float:left;
+	fill: green;
+	margin-right:10px;
+}
+.octicon-comment {
+	float: right;
+	margin-right: 20px;
+}
+.comments {
+	float: right;
+}
+.comments_cnt {
+	position: absolute;
+	float: right;
+	margin-left: 20px;
+	color: black;
+}
+.disabled {
+	color: #d1d5da !important;
+	cursor: default;
+}
